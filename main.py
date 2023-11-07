@@ -10,13 +10,13 @@ def scrap(url: str) -> float:
         session.headers = {
             "User-Agent": '''Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) \
             Chrome/70.0.3538.110 Safari/537.36''',
-            "Accept-Encoding": "gzip, deflate",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-            "Accept-Language": "en"
+            "Accept": "*/*",
+            "Accept-Language": "pl-PL,pl"
         }
     try:
-        response = session.get(url)
-    except requests.exceptions.MissingSchema:
+        response = session.get(url, timeout=10)
+    except (requests.exceptions.MissingSchema, requests.exceptions.ReadTimeout):
+        # if url != '': print(f"\rProblem with {url=}")
         return float('inf')
     soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -64,13 +64,18 @@ def print_result(parts: dict) -> None:
     print("\r", end='')
     for key, value in parts.items():
         printValue(key, value)
-        total += value[2]
+        if value[2] != float('inf'):
+            total += value[2]
 
     print(f"\nBest price of whole setup is {total:.2f} zł.")
 
-def main(json_file: str):
+def main(json_file: str) -> None:
     with open(json_file) as f:
-        parts_json = json.load(f)
+        try:
+            parts_json = json.load(f)
+        except:
+            print("Improper json file.")
+            exit(0)
 
     parts = get_parts_prices(parts_json)
     print_result(parts)
@@ -78,11 +83,4 @@ def main(json_file: str):
 
 
 if __name__ == '__main__':
-    main('parts.json')
-
-
-# proline:
-# 	ENDORFY Signum 300 ARGB - 354.99 zł
-# 	ENDORFY Fera 5 ARGB - 163.00 zł
-# 	Thermal Grizzly Kryonaut 1g - 33.80 zł
-# 	----Total in proline: 551.79 zł
+    main('parts_itx_4070.json')

@@ -1,0 +1,156 @@
+{
+  "case":
+          [
+            "Hyte Revolt 3",
+            {
+              "komputronik": "",
+              "x-kom": "https://www.x-kom.pl/p/1105680-obudowa-do-komputera-hyte-hyte-revolt-3-black.html",
+              "morele": "https://www.morele.net/obudowa-hyte-revolt-3-czarna-cs-hyte-revolt3-b-9916459/",
+              "proshop": "https://www.proshop.pl/Obudowa-komputerowa/HYTE-Revolt-3-Obudowa-komputerowa-Minitower-Czarny/3064405",
+              "amazon": "https://www.amazon.pl/HYTE-Revolt-3-BK-CS-HYTE-REVOLT3-B/dp/B0B54J86QR/"
+            }
+          ],
+  "power supply":
+          [
+            "Chieftec Compact Series SFX 650W 80 Plus Gold",
+            {
+              "komputronik": "https://www.komputronik.pl/product/455794/chieftec-csn-650c.html",
+              "x-kom": "https://www.x-kom.pl/p/592522-zasilacz-do-komputera-chieftec-compact-series-sfx-650w-80-plus-gold.html",
+              "morele": "https://www.morele.net/zasilacz-chieftec-compact-650w-csn-650c-1770539/"
+            }
+          ],
+  "CPU":
+          [
+            "Intel Core i5-13500",
+            {
+              "komputronik": "https://www.komputronik.pl/product/799397/intel-core-i5-13500.html",
+              "x-kom": "https://www.x-kom.pl/p/1101200-procesory-intel-core-i5-intel-core-i5-13500.html",
+              "morele": "https://www.morele.net/procesor-intel-core-i5-13500-2-5-ghz-24-mb-box-bx8071513500-12462058/",
+              "proshop": "https://www.proshop.pl/Procesor/Intel-Core-i5-13500-Raptor-Lake-Procesor-14-cores-25-GHz-Intel-LGA1700-Intel-BOX/3121380",
+              "mediaexpert": "https://www.mediaexpert.pl/komputery-i-tablety/podzespoly-komputerowe/procesory/procesor-intel-core-i5-13500"
+            }
+          ],
+  "CPU cooler":
+          [
+            "Noctua NH-L9i-17xx",
+            {
+              "komputronik": "https://www.komputronik.pl/product/751531/noctua-nh-l9i-17xx.html",
+              "x-kom": "",
+              "morele": "https://www.morele.net/chlodzenie-cpu-noctua-nh-l9i-17xx-9571583/",
+              "proshop": "https://www.proshop.pl/Chlodzenie-CPU/Noctua-NH-L9i-17xx-Chlodzenie-powietrzem-procesora-Max-24-dBA/3016303",
+              "amazon": "https://www.amazon.pl/Noctua-NH-L9i-17xx-Low-Profile-Premium-LGA1700/dp/B09HCLB7M3/"
+            }
+          ],
+  "motherboard":
+          [
+            "ASRock B760M-ITX/D4 WIFI",
+            {
+              "komputronik": "https://www.komputronik.pl/product/845858/asrock-b760m-itx-d4-wifi.html",
+              "x-kom": "",
+              "morele": "https://www.morele.net/plyta-glowna-asrock-b760m-itx-d4-wifi-12998091/",
+              "proshop": "https://www.proshop.pl/Plyta-glowna/ASRock-B760M-ITXD4-WiFi-Plyta-glowna-Intel-B760-Intel-LGA1700-socket-DDR4-RAM-Mini-ITX/3181828"
+            }
+          ],
+  "GPU":
+          [
+            "GeForce RTX 4070 12GB",
+            {
+              "komputronik": "https://www.komputronik.pl/product/824947/msi-geforce-rtx-4070-ventus-3x-oc-12gb-dlss-3.html",
+              "x-kom": "https://www.x-kom.pl/p/1171281-karta-graficzna-nvidia-msi-geforce-rtx-4070-ventus-3x-e-oc-12gb-gddr6x.html",
+              "morele": "https://www.morele.net/karta-graficzna-gigabyte-geforce-rtx-4070-eagle-oc-12gb-gddr6x-gv-n4070eagle-oc-12gd-12788969/",
+              "proshop": "https://www.proshop.pl/Karta-graficzna/GIGABYTE-GeForce-RTX-4070-GAMING-OC-12GB-GDDR6X-RAM-Karta-graficzna/3149058"
+            }
+          ],
+  "RAM":
+          [
+            "DDR4 3600MHz 32GB [2x16GB]",
+            {
+              "komputronik": "https://www.komputronik.pl/product/663742/g-skill-ripjaws-v-black-32gb-2x16gb-3600mhz-ddr4-cl18-xmp2-0-dimm-.html",
+              "x-kom": "https://www.x-kom.pl/p/655049-pamiec-ram-ddr4-gskill-32gb-2x16gb-3600mhz-cl18-ripjawsv.html",
+              "morele": "https://www.morele.net/pamiec-g-skill-ripjaws-v-ddr4-32-gb-3600mhz-cl18-f4-3600c18d-32gvk-6337760/",
+              "proshop": "https://www.proshop.pl/RAM/GSkill-Ripjaws-V-DDR4-3600-C18-DC-32GB/2808939",
+              "euro": "https://www.euro.com.pl/pamieci-ram/g-skill-ripjaws-v-ddr4-32gb-2-x-16gb-3600-cl18.bhtml",
+              "mediaexpert": "https://www.mediaexpert.pl/komputery-i-tablety/podzespoly-komputerowe/pamieci-ram/g-skill-ddr4-ripjawsv-2x16gb-3600mhz-cl18-xmp2-blac"
+            }
+          ],
+  "SSD":
+          [
+            "Lexar 1TB M.2 PCIe Gen4 NVMe NM710",
+            {
+              "komputronik": "https://www.komputronik.pl/product/807813/lexar-nm710-pci-e-nvne-1tb.html",
+              "x-kom": "https://www.x-kom.pl/p/1115319-dysk-ssd-lexar-1tb-m2-pcie-gen4-nvme-nm710.html",
+              "morele": "https://www.morele.net/dysk-ssd-lexar-nm710-1tb-m-2-2280-pci-e-x4-gen4-nvme-lnm710x001t-rnnng-12594458/",
+              "proshop": "https://www.proshop.pl/Dysk-SSD/Lexar-NM710-SSD-1-TB-PCIe-40-x4-NVMe/3171934"
+              }
+          ],
+  "fan 1":
+          [
+            "Noctua NF-A14 PWM",
+            {
+              "komputronik": "https://www.komputronik.pl/product/241453/noctua-nf-a14-pwm.html",
+              "x-kom": "https://www.x-kom.pl/p/390257-wentylator-do-komputera-noctua-nf-a14-pwm-chromax-140mm.html",
+              "morele": "https://www.morele.net/wentylator-noctua-nf-a14-pwm-581751/",
+              "proshop": "https://www.proshop.pl/Wentylator-obudowy/Noctua-NF-A14-PWM-Wentylator-obudowy-140-mm-Brazowy-19-dBA/2433231",
+              "amazon": "https://www.amazon.pl/Noctua-NF-A14-PWM-4-Pinowy-Wentylator/dp/B00CP6QLY6"
+            }
+          ],
+  "fan 2":
+          [
+            "Noctua NF-A14 PWM",
+            {
+              "komputronik": "https://www.komputronik.pl/product/241453/noctua-nf-a14-pwm.html",
+              "x-kom": "https://www.x-kom.pl/p/390257-wentylator-do-komputera-noctua-nf-a14-pwm-chromax-140mm.html",
+              "morele": "https://www.morele.net/wentylator-noctua-nf-a14-pwm-581751/",
+              "proshop": "https://www.proshop.pl/Wentylator-obudowy/Noctua-NF-A14-PWM-Wentylator-obudowy-140-mm-Brazowy-19-dBA/2433231",
+              "amazon": "https://www.amazon.pl/Noctua-NF-A14-PWM-4-Pinowy-Wentylator/dp/B00CP6QLY6"
+            }
+          ],
+  "screen":
+          [
+            "Gigabyte GS27QC",
+            {
+              "komputronik": "https://www.komputronik.pl/product/851398/gigabyte-gs27qc.html",
+              "x-kom": "https://www.x-kom.pl/p/1167618-monitor-led-27-gigabyte-gs27qc.html",
+              "morele": "https://www.morele.net/monitor-gigabyte-gs27qc-13063076/",
+              "mediaexpert": "https://www.mediaexpert.pl/komputery-i-tablety/monitory-led/monitor-gigabyte-gs27qc-27-2560x1440px-165hz-1-ms-curved"
+            }
+          ],
+  "keyboard":
+          [
+            "Steelseries Apex 9",
+            {
+              "komputronik": "https://www.komputronik.pl/product/771383/steelseries-apex-9-tlk.html",
+              "x-kom": "https://www.x-kom.pl/p/1069874-klawiatura-przewodowa-steelseries-apex-9-tkl.html",
+              "morele": "https://www.morele.net/klawiatura-steelseries-apex-9-tkl-optipoint-64847-10525713/",
+              "mediaexpert": "https://www.mediaexpert.pl/komputery-i-tablety/klawiatury-komputerowe/klawiatury/klawiatura-steelseries-apex-9-tlk",
+              "euro": "https://www.euro.com.pl/klawiatury/steelseries-klawiatura-dla-graczy-apex-9-tkl.bhtml"
+            }
+          ],
+  "overvoltage strip":
+          [
+            "Qoltec 4",
+            {
+              "komputronik": "https://www.komputronik.pl/product/732132/qoltec-4-gniazda-1-5m-czarna.html",
+              "x-kom": "https://www.x-kom.pl/p/488578-listwa-zasilajaca-qoltec-listwa-antyprzepieciowa-4-gniazda-15m-czarna.html",
+              "morele": "",
+              "proshop": ""
+            }
+          ],
+  "monitor stand":
+          [
+            "ART L01",
+            {
+              "komputronik": "",
+              "x-kom": "https://www.x-kom.pl/p/315117-uchwyt-do-monitora-art-l-01.html",
+              "morele": "https://www.morele.net/art-uchwyt-biurkowy-na-monitor-13-27-l-01-ramart-l-01-420950/",
+              "proshop": ""
+            }
+          ],
+  "mouse":
+          [
+            "Corsair Dark Core RGB Pro",
+            {
+              "komputronik": ""
+            }
+          ]
+}

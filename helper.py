@@ -8,16 +8,22 @@ shops = {
         "x-kom": ".sc-n4n86h-1.hYfBFq",
         "morele": ".product-price",
         "proline": "b.cena_b>span",
-        "eurortvagd": "",
-        "mediaexpert": ""
+        "proshop": ".site-currency-attention",
+        "euro": "span.price-template__large--total",
+        "mediaexpert": "span.whole",
+        "electro": "",
+        "amazon": ".a-price-whole"
     }
 
-def printScraping(i, l):
-    print(f"\rScraping: {'#' * i + '-' * (l - i)} {GREEN}{str(i * 100 // l)}%{RESET}",
+
+def printScraping(i, length):
+    print(f"\rScraping: {'#' * i + '-' * (length - i)} {GREEN}{str(i * 100 // length)}%{RESET}",
           end='')
 
+
 def printValue(key, value):
-    print(f"Best price of {BLUE}{key} {RED}{value[0]}{RESET} is in {GREEN}{value[1]}{RESET}: {GREEN}{value[2]:.2f} zł{RESET}.")
+    print(f"Best price of {BLUE}{key} {RED}{value[0]}{RESET} is in {GREEN}{value[1]}{RESET}: {GREEN if float('inf') != value[2] else RED}{value[2]:.2f} zł{RESET}.")
+
 
 def saveFile(parts):
     with open('list', 'w', encoding='utf-8') as f:
